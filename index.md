@@ -1,37 +1,8 @@
-## Welcome to Spengh's blob
+### JavaScript模块化编程介绍
+**导读** 编码的美妙就在于未知带来的惊喜以及控制带来的满足，而Javascript最是能体现这种美妙的语言。有人说它像一匹野马，不受缰络束缚又身强肌壮，自由与力量让它生来强大又难于驾驭（似乎强大的东西通常都较难驾驭），也正是这种本性造就了它的魅力。正是这种心动的着迷，促使人去探索。想写下自己的一些学习过程，一为记录，二也希望能让读到的你借由本人粗浅认知窥探到Javascript的美。限于本人水平有限，如有错误，敬请指正。
+本文主要以模块化为主线，试图从Javascript为什么需要模块化开始，介绍Javascript模块化编程的优势以及模块化编程具体方法。本文默认所有读者均有一定编程基础，了解基本编程概念。
 
-You can use the [editor on GitHub](https://github.com/spengh/theWay/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/spengh/theWay/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+**模块化，让一切清晰有序**
+随着互联网的深入发展，网页应用变得越来越像桌面应用，因此嵌入网页的Javascript代码也随之变得越来越庞大繁杂，很大程度上增加了程序的维护成本，同时也让扩展变得困难。由于Javascript代码可以嵌在页面任何位置，也可以通过外部文件引入，当程序逐渐变大时，这种随意性会更增加程序难度，当维护人员阅读这样的代码时，往往无从下手。
+面对这样的问题，我们希望Javascript程序也能像桌面应用那样能使用软件工程的方法进行管理。尽量使编码人员只专注于自己的业务逻辑，以良好封装的部件形式为其它业务提供服务，部件与部件之间相互隔离，通过导入部件的方式引用其它逻辑。为实现这样的目的，在Javascript社区的努力下，模块化编程的思想逐渐产生。
+模块，即实现特定功能的一组业务逻辑组合，
