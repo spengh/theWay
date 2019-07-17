@@ -53,7 +53,7 @@ var Arithmetic = {
 	}
 }
 ```
-改进后，所有函数定义均在`Arithmetic`对象中，调用时通过`Arithmetic.add`或`Arithemic.minus`实现具体算数运算。函数名处在`Arithmetic`空间下。可一定程度上避免命名空间污染。这种设计存在的问题请看下面代码：
+改进后，所有函数定义均在`Arithmetic`对象中，调用时通过`Arithmetic.add`或`Arithemic.minus`实现具体算数运算。函数名处在`Arithmetic`空间下。可一定程度上避免命名空间污染。这种设计存在的问题请看下面代码:
 ```javascript
 var Arithmetic = {
     //总数
