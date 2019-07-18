@@ -34,6 +34,7 @@ function minus(minuend, subtrahend){
 2. 面对上文中存在的问题，结合Javascript对象的定义，改进设计，通过Javascript对象封装函数实现，以对象名称来表达命名空间，函数以对象属性形式定义，从而避免严重的命名空间污染。代码如下：<br>
 ```javascript
 var Arithmetic = {
+
 	/**
 	 * 实现加操作
 	 * @param summand 被加数
@@ -41,7 +42,7 @@ var Arithmetic = {
 	 * @returns 和
 	 */
 	add: function (summand, addend){
-	    return summand + addend;
+		return summand + addend;
 	},
 	/**
 	 * 实现减法操作
@@ -49,7 +50,7 @@ var Arithmetic = {
 	 * @param subtrahend 减数
 	 */
 	minus: function (minuend, subtrahend){
-	    return minuend - subtrahend;
+		return minuend - subtrahend;
 	}
 }
 ```
